@@ -1,0 +1,32 @@
+{ 
+  "token": "token",
+  "supportChannelId": "668800262722420736",
+  "welcomeMessageContents": "React with the appropriate emoji to create a ticket.\n\n The **Buyer (BTC Sender)** should start the escrow\n\n Trades under $50 are FREE\n\nTrades above $50 are charged a 3% escrow fee.",
+  "welcomeMessageFooter": "Thank you for your patience",
+  "tradeMessageContents" : "Amount: **%amount%** BTC\n Amount to Send *Including Escrow Fee*: **%amountFee%**\n\nEscrow Address: **%address%**\n Escrow Status: **%escrowStatus%**\n\n ------------------------ \n\n Terms: **%terms%** \n Buyer: %user1%\n Seller: %user2%\n\n ------------------------ \n\n💵 Edit Amount\n\n✏️ Edit terms \n\n✅  Accept Terms\n\n❌ Reject Terms \n\n❔ Admin Assistance ",
+  "tradeStatusMessage":"Status: %status%",
+  "confirmedTrade": "Amount: **%amount%** BTC\n Amount to Send *Including Fee*: **%amountFee%**\n\nEscrow Address: **%address%**\n Escrow Status: **%escrowStatus%**\n\n ------------------------ \n\n Terms: **%terms%** \n Buyer: %user1%\n Seller: %user2%\n\n ------------------------ \n\n",
+  "onGoingTrade":"Amount: **%amount%** BTC\n Amount to Send *Including Fee*: **%amountFee%**\n\nEscrow Address: **%address%**\n Escrow Status: **%escrowStatus%**\n\n ------------------------ \n\n Terms: **%terms%** \n Buyer: %user1%\n Seller: %user2%\n\n ------------------------ \n\n❔ Admin Assistance",
+  "ticketTypes": {
+    "escrow": {
+      "type":"escrow",
+      "title": "escrow",
+      "parent": "676435934845337644",
+      "permitAll": "ADMIN",
+      "reaction": "💰",
+      "reactionDescription": "Create a new Escrow",
+      "messageFooter": "Escrow created by %username%"
+    },
+    "support": {
+      "type":"support",
+      "title": "support-",
+      "parent": "678733986456928277",
+      "permitAll": "ADMIN",
+      "reaction": "❓",
+      "reactionDescription": "Server Help & Support",
+      "messageBody": "Support ticket created! Someone from our staff will be right with you. Feel free to mention any relevant details that we'll need to know to help you.",
+      "messageFooter": "Ticket created by %username%"
+    }
+    
+  }
+}
